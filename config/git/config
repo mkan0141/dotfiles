@@ -1,0 +1,7 @@
+[user]
+	name = mkan0141
+	email = kanzume0141@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
