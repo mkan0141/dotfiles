@@ -1,4 +1,5 @@
 # dotfiles
+
 mkan0141's dotfiles
 
 # setup
@@ -6,5 +7,5 @@ mkan0141's dotfiles
 ```zsh
 $ git clone https://github.com/mkan0141/dotfiles
 $ cd dotfiles
-$ ./install.zsh
+$ ./install.sh
 ```
