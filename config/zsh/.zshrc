@@ -10,5 +10,5 @@ path=(
   "$path[@]"
 )
 
-# sheldom
+# sheldon
 eval "$(sheldon source)"
