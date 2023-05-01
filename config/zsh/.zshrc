@@ -9,3 +9,6 @@ path=(
   "$CARGO_HOME/bin"(N-/)
   "$path[@]"
 )
+
+# sheldom
+eval "$(sheldon source)"

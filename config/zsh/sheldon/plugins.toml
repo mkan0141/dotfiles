@@ -15,14 +15,24 @@ shell = "zsh"
 [templates]
 defer = "{% for file in files %}zsh-defer source \"{{ file }}\"\n{% endfor %}"
 
-[plugins]
-
 [plugins.zsh-defer]
 github = 'romkatv/zsh-defer'
 
 [plugins.zsh-autosuggestions]
 github = "zsh-users/zsh-autosuggestions"
+
+[plugins.dotfiles-sync]
+local = "~/dotfiles/config/zsh/sheldon/sync/"
+use = ["*.zsh"]
+apply = ["source"]
+
+[plugins.dotfiles-defer]
+local = "~/dotfiles/config/zsh/sheldon/defer/"
+use = ["*.zsh"]
 apply = ["defer"]
+
+[plugins.compinit]
+inline = "autoload -Uz compinit && compinit"
 
 # For example:
 #
