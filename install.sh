@@ -11,4 +11,4 @@ else
   git clone https://github.com/mkan0141/dotfiles
 fi
 
-ln -sfv "$INSTALL_DIR/config/"* "$XDG_CONFIG_HOME"
+ln -sfv "$INSTALL_DIR/config/" "$XDG_CONFIG_HOME"
