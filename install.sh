@@ -11,4 +11,6 @@ else
   git clone https://github.com/mkan0141/dotfiles
 fi
 
+source "$INSTALL_DIR/config/zsh/.zshenv"
+
 ln -sfv "$INSTALL_DIR/config/" "$XDG_CONFIG_HOME"
